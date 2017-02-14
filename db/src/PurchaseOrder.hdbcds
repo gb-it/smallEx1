@@ -1,4 +1,3 @@
-@OData.publish : true
 context PurchaseOrder {
     type BusinessKey : String(10);
     type SDate : LocalDate;
