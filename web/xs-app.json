@@ -1,0 +1,17 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "route",
+	"routes": [{
+		"source": "/node(.*)",
+		"destination": "core-backend",
+		"authenticationType": "xsuaa"
+	}, {
+		"source": "^/java/odata/(.*)",
+		"destination": "user-java-backend",
+		"authenticationType": "xsuaa"
+	}, {
+		"source": "/(.*)",
+		"localDir": "resources",
+		"authenticationType": "xsuaa"
+	}]
+}

@@ -1,0 +1,9 @@
+service namespace  {
+   "PurchaseOrder.Header" as "Header" navigates (
+ "poh_to_poi" as "to_poi" from principal);
+ "PurchaseOrder.Item" as "Item";
+ 
+   association "poh_to_poi"
+        principal "Header"("PURCHASEORDERID") multiplicity "1"
+        dependent "Item"("PURCHASEORDERID") multiplicity "*";
+ }
