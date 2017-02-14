@@ -44,13 +44,13 @@ modules:
    path: web
    requires:
     - name: small-uaa
-    - name: java
+    - name: java_api
       group: destinations
       properties:
         name: user-java-backend
         url: ~{url}
         forwardAuthToken: true      
-    - name: node
+    - name: node_api
       group: destinations
       properties:
         name: core-backend

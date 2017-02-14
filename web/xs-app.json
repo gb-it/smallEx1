@@ -2,7 +2,7 @@
 	"welcomeFile": "index.html",
 	"authenticationMethod": "route",
 	"routes": [{
-		"source": "/node(.*)",
+		"source": "(.*)(.xsjs)|(.*)(.xsodata)",
 		"destination": "core-backend",
 		"authenticationType": "xsuaa"
 	}, {

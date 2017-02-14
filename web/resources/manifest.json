@@ -14,7 +14,7 @@
 	},
     "dataSources": {
       "bpService": {
-        "uri": "/node/po.xsodata/",
+        "uri": "/po.xsodata/",
         "type": "OData",
         "settings": {
           "odataVersion": "2.0"

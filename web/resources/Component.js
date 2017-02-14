@@ -29,7 +29,7 @@ sap.ui.define([
 		},
 
 		getSessionInfo: function() {
-			var aUrl = "/node/exercisesMaster.xsjs?cmd=getSessionInfo";
+			var aUrl = "/exercisesMaster.xsjs?cmd=getSessionInfo";
 			this.onLoadSession(
 				JSON.parse(jQuery.ajax({
 					url: aUrl,

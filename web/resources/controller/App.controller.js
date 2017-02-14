@@ -17,11 +17,11 @@ sap.ui.define([
 
 			function fnLoadMetadata() {
 				oTable.setModel(bpModel);
-				oTable.setEntitySet("BusinessPartners");
+				oTable.setEntitySet("Item");
 				var oMeta = bpModel.getServiceMetadata();
 				var headerFields = "";
-				for (var i = 0; i < oMeta.dataServices.schema[0].entityType[0].property.length; i++) {
-					var property = oMeta.dataServices.schema[0].entityType[0].property[i];
+				for (var i = 0; i < oMeta.dataServices.schema[0].entityType[1].property.length; i++) {
+					var property = oMeta.dataServices.schema[0].entityType[1].property[i];
 					headerFields +=  property.name + ",";
 				}
 				oTable.setInitiallyVisibleFields(headerFields);
