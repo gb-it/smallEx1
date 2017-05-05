@@ -1,8 +1,8 @@
 /*eslint no-console: 0, no-unused-vars: 0*/
 "use strict";
 
-var xsjs  = require("sap-xsjs");
-var xsenv = require("sap-xsenv");
+var xsjs  = require("@sap/xsjs");
+var xsenv = require("@sap/xsenv");
 var port  = process.env.PORT || 3000;
 
 var options = {

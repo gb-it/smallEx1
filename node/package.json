@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "sap-xsenv": "1.2.4",
-    "sap-xsjs": "1.11.4"
+    "@sap/xsenv": "1.2.6",
+    "@sap/xsjs": "1.14.1"
   },
   "devDependencies": {
-    "sap-xsjs-test": "1.2.2"
+    "@sap/xsjs-test": "2.0.2"
   },
   "files": [],
   "main": "server.js",
